@@ -1,0 +1,65 @@
+body {
+    font-family: monospace; /* Usar fuente monoespaciada para alinear los caracteres */
+    padding: 20px;
+    background-color: #637ec9;
+    color: #333;
+}
+#pantalla {
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 20px;
+}
+#EsK {
+    color: rgb(26, 23, 23);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#modoP, #TonoR {
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 25px;
+}
+#EscalaT {
+    background-color: #b4d2f3;
+    color: #555;
+    font-style: italic;
+    font-size: 15px;
+}
+#mostrarP {
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+#output-container {
+    font-size: 30px;
+    background-color: #f7f7f7;
+    margin-top: 15px;
+    font-family: monospace; /* Asegurarse de que el contenedor de salida también usa monospace */
+    white-space: pre; /* Esto es clave para mantener los espacios y la alineación */
+}
+.gray-text {
+    color: gray;
+    font-size: 10px;
+}
+#descrip {
+    color: rgb(26, 23, 23);
+    font-weight: bold;
+    text-align: justify;
+    font-size: 18px;
+}
+#descrip2 {
+    color: rgb(26, 23, 23);
+    font-weight: bold;
+    text-align: justify;
+    font-size: 18px;
+}
